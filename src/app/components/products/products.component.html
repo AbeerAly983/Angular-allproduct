@@ -1,0 +1,10 @@
+<section>
+  <div class="container p-5">
+    <div class="row gy-4">
+      @for (product of products; track $index) {
+      <div class="col-md-4"><app-card [product]="product"></app-card></div>
+
+      }
+    </div>
+  </div>
+</section>

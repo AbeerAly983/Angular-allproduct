@@ -1,0 +1,32 @@
+.inner {
+  background-color: #fffefe;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h1 {
+  color: #663726;
+  font-weight: 500;
+  padding-inline: 6px;
+}
+p {
+  padding-inline: 6px;
+  color: #454545;
+  font-size: 18px;
+  font-weight: 400;
+}
+.price {
+  font-size: 20px;
+}
+.cat {
+  border: 2px solid #663726;
+  color: #663726;
+  border-radius: 5px;
+  padding: 6px 10px;
+}
+.rat {
+  border: 2px solid #663726;
+  color: #fffefe;
+  background-color: #663726;
+  border-radius: 5px;
+  padding: 4px 14px;
+}
