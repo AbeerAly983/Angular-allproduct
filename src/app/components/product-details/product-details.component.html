@@ -1,0 +1,16 @@
+<div class="container">
+  @if (products) {
+  <div class="row align-items-center justify-content-center">
+    <div class="col-md-4">
+      <img class="img-fluid" [src]="products?.image" alt="product-image" />
+    </div>
+    <div class="col-md-8">
+      <h5>{{ products?.title }}</h5>
+      <h6>{{ products?.category }}</h6>
+      <h6>{{ products?.price }}</h6>
+      <p>{{ products?.description }}</p>
+    </div>
+  </div>
+  }
+
+</div>
